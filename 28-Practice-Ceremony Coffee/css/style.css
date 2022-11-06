@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../image/header__background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+}
+
+.menu-item {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__menu-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    top: 50%;
+    padding-left: 299px;
+}
+
+.content__text {
+    font-size: 25px;
+    color: white;
+}
+
+span {
+    color: white;
+    font-size: 40px;
+}
+
+.card__wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 160px 60px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    Width: 371px;
+    font-size: 35px;
+    left: calc(85% - 371px);
+    color: white;
+}
+
+.card-img {
+    width: 530px;
+    height: 760px;
+}
+
+.card {
+    position: relative;
+}
+
+.card__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-top: 330px;
+    padding-left: 100px;
+}
+
+.card__text {
+    font-size: 30px;
+}
+
+.banner {
+    background-color: pink;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 0 60px;
+}
+
+.banner__group-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.banner-text {
+    font-size: 25px;
+}
+
+.banner-title {
+    font-size: 60px;
+}
+
+.banner-subtitle {
+    font-size: 25px;
+}
+
+.instagram-collut {
+    height: 1080px;
+}
+
+.instagram__collut-container {
+    padding: 0 60px;
+}
+
+.instagram__collut-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 280px 0;
+}
+
+.instagram__collut-logo {
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+
+.instagram__collut-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    font-size: 35px;
+}
+
+.instagram__collut-image {
+    display: flex;
+    gap: 30px;
+}
+
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.group-grid__image {
+    width: 240px;
+    height: 240px;
+}
+
+.footer {
+    min-height: 1080px;
+}
+
+.newletter-cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    height: 90px;
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+.newletter-text {
+    color: white;
+}
+
+.newletter-cover span {
+    color: rgb(94, 89, 89);
+    font-size: 25px;
+}
+
+.newsller-button {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    transition: 0.5s;
+}
+
+.newsller-button:hover {
+    transition: 0.5s;
+    color: rgb(32, 88, 161);
+}
+
+.menu__group {
+    display: flex;
+    padding-top: 130px;
+    gap: 80px;
+}
+
+.menu__group ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu__shop-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30;
+}
+
+.menu__link-title {
+    font-size: 35px;
+}
+
+.menu__link-text {
+    font-size: 35px;
+    color: gray;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 90px;
+    font-size: 35px;
+}
+
+.socials__text-gray {
+    color: gray;
+}
+
+.socials-twitter {
+    width: 50px;
+    height: 50px;
+}
+
+.socials-facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.socials-instagram {
+    width: 50px;
+    height: 50px;
+}
+
+.socials__image-button {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 155px;
+}
+
+.bottom__text-gray {
+    color: gray;
+    font-size: 35px;
+}
+
+.bottom__text-socials {
+    color: #d0d1d1;
+}
